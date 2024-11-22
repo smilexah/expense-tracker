@@ -26,7 +26,7 @@ import org.springframework.context.annotation.Configuration;
         ),
         externalDocs = @ExternalDocumentation(
                 description = "Expense Tracker RESTFul API Documentation for Developers",
-                url = "http://localhost:8181/swagger-ui/index.html?configUrl=/v3/api-docs/swagger-config"
+                url = "https://localhost:8080/swagger-ui/index.html?configUrl=/v3/api-docs/swagger-config"
         )
 )
 public class SwaggerConfig {
